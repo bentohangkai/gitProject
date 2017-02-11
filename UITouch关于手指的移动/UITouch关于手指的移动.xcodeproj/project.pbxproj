@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13D10C0B1E4EB2D700C65D97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D10C0A1E4EB2D700C65D97 /* main.m */; };
+		13D10C0E1E4EB2D700C65D97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D10C0D1E4EB2D700C65D97 /* AppDelegate.m */; };
+		13D10C111E4EB2D700C65D97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D10C101E4EB2D700C65D97 /* ViewController.m */; };
+		13D10C141E4EB2D700C65D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D10C121E4EB2D700C65D97 /* Main.storyboard */; };
+		13D10C161E4EB2D700C65D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D10C151E4EB2D700C65D97 /* Assets.xcassets */; };
+		13D10C191E4EB2D700C65D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D10C171E4EB2D700C65D97 /* LaunchScreen.storyboard */; };
+		13D10C241E4EB2D700C65D97 /* UITouch_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D10C231E4EB2D700C65D97 /* UITouch_______Tests.m */; };
+		13D10C2F1E4EB2D700C65D97 /* UITouch_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D10C2E1E4EB2D700C65D97 /* UITouch_______UITests.m */; };
+		13D10C3F1E4EB32400C65D97 /* SecondVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D10C3D1E4EB32400C65D97 /* SecondVc.m */; };
+		13D10C401E4EB32400C65D97 /* SecondVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13D10C3E1E4EB32400C65D97 /* SecondVc.xib */; };
+		13D10C441E4EB33D00C65D97 /* ThreeVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D10C421E4EB33D00C65D97 /* ThreeVc.m */; };
+		13D10C451E4EB33D00C65D97 /* ThreeVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13D10C431E4EB33D00C65D97 /* ThreeVc.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13D10C201E4EB2D700C65D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13D10BFE1E4EB2D700C65D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13D10C051E4EB2D700C65D97;
+			remoteInfo = "UITouch关于手指的移动";
+		};
+		13D10C2B1E4EB2D700C65D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13D10BFE1E4EB2D700C65D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13D10C051E4EB2D700C65D97;
+			remoteInfo = "UITouch关于手指的移动";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13D10C061E4EB2D700C65D97 /* UITouch关于手指的移动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITouch关于手指的移动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D10C0A1E4EB2D700C65D97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13D10C0C1E4EB2D700C65D97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13D10C0D1E4EB2D700C65D97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13D10C0F1E4EB2D700C65D97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13D10C101E4EB2D700C65D97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13D10C131E4EB2D700C65D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13D10C151E4EB2D700C65D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13D10C181E4EB2D700C65D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13D10C1A1E4EB2D700C65D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D10C1F1E4EB2D700C65D97 /* UITouch关于手指的移动Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITouch关于手指的移动Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D10C231E4EB2D700C65D97 /* UITouch_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITouch_______Tests.m"; sourceTree = "<group>"; };
+		13D10C251E4EB2D700C65D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D10C2A1E4EB2D700C65D97 /* UITouch关于手指的移动UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITouch关于手指的移动UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D10C2E1E4EB2D700C65D97 /* UITouch_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITouch_______UITests.m"; sourceTree = "<group>"; };
+		13D10C301E4EB2D700C65D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D10C3C1E4EB32400C65D97 /* SecondVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVc.h; sourceTree = "<group>"; };
+		13D10C3D1E4EB32400C65D97 /* SecondVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVc.m; sourceTree = "<group>"; };
+		13D10C3E1E4EB32400C65D97 /* SecondVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondVc.xib; sourceTree = "<group>"; };
+		13D10C411E4EB33D00C65D97 /* ThreeVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeVc.h; sourceTree = "<group>"; };
+		13D10C421E4EB33D00C65D97 /* ThreeVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeVc.m; sourceTree = "<group>"; };
+		13D10C431E4EB33D00C65D97 /* ThreeVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeVc.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13D10C031E4EB2D700C65D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D10C1C1E4EB2D700C65D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D10C271E4EB2D700C65D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13D10BFD1E4EB2D700C65D97 = {
+			isa = PBXGroup;
+			children = (
+				13D10C081E4EB2D700C65D97 /* UITouch关于手指的移动 */,
+				13D10C221E4EB2D700C65D97 /* UITouch关于手指的移动Tests */,
+				13D10C2D1E4EB2D700C65D97 /* UITouch关于手指的移动UITests */,
+				13D10C071E4EB2D700C65D97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13D10C071E4EB2D700C65D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13D10C061E4EB2D700C65D97 /* UITouch关于手指的移动.app */,
+				13D10C1F1E4EB2D700C65D97 /* UITouch关于手指的移动Tests.xctest */,
+				13D10C2A1E4EB2D700C65D97 /* UITouch关于手指的移动UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13D10C081E4EB2D700C65D97 /* UITouch关于手指的移动 */ = {
+			isa = PBXGroup;
+			children = (
+				13D10C0C1E4EB2D700C65D97 /* AppDelegate.h */,
+				13D10C0D1E4EB2D700C65D97 /* AppDelegate.m */,
+				13D10C0F1E4EB2D700C65D97 /* ViewController.h */,
+				13D10C101E4EB2D700C65D97 /* ViewController.m */,
+				13D10C121E4EB2D700C65D97 /* Main.storyboard */,
+				13D10C151E4EB2D700C65D97 /* Assets.xcassets */,
+				13D10C171E4EB2D700C65D97 /* LaunchScreen.storyboard */,
+				13D10C1A1E4EB2D700C65D97 /* Info.plist */,
+				13D10C091E4EB2D700C65D97 /* Supporting Files */,
+				13D10C3C1E4EB32400C65D97 /* SecondVc.h */,
+				13D10C3D1E4EB32400C65D97 /* SecondVc.m */,
+				13D10C3E1E4EB32400C65D97 /* SecondVc.xib */,
+				13D10C411E4EB33D00C65D97 /* ThreeVc.h */,
+				13D10C421E4EB33D00C65D97 /* ThreeVc.m */,
+				13D10C431E4EB33D00C65D97 /* ThreeVc.xib */,
+			);
+			path = "UITouch关于手指的移动";
+			sourceTree = "<group>";
+		};
+		13D10C091E4EB2D700C65D97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13D10C0A1E4EB2D700C65D97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13D10C221E4EB2D700C65D97 /* UITouch关于手指的移动Tests */ = {
+			isa = PBXGroup;
+			children = (
+				13D10C231E4EB2D700C65D97 /* UITouch_______Tests.m */,
+				13D10C251E4EB2D700C65D97 /* Info.plist */,
+			);
+			path = "UITouch关于手指的移动Tests";
+			sourceTree = "<group>";
+		};
+		13D10C2D1E4EB2D700C65D97 /* UITouch关于手指的移动UITests */ = {
+			isa = PBXGroup;
+			children = (
+				13D10C2E1E4EB2D700C65D97 /* UITouch_______UITests.m */,
+				13D10C301E4EB2D700C65D97 /* Info.plist */,
+			);
+			path = "UITouch关于手指的移动UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13D10C051E4EB2D700C65D97 /* UITouch关于手指的移动 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D10C331E4EB2D700C65D97 /* Build configuration list for PBXNativeTarget "UITouch关于手指的移动" */;
+			buildPhases = (
+				13D10C021E4EB2D700C65D97 /* Sources */,
+				13D10C031E4EB2D700C65D97 /* Frameworks */,
+				13D10C041E4EB2D700C65D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITouch关于手指的移动";
+			productName = "UITouch关于手指的移动";
+			productReference = 13D10C061E4EB2D700C65D97 /* UITouch关于手指的移动.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13D10C1E1E4EB2D700C65D97 /* UITouch关于手指的移动Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D10C361E4EB2D700C65D97 /* Build configuration list for PBXNativeTarget "UITouch关于手指的移动Tests" */;
+			buildPhases = (
+				13D10C1B1E4EB2D700C65D97 /* Sources */,
+				13D10C1C1E4EB2D700C65D97 /* Frameworks */,
+				13D10C1D1E4EB2D700C65D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13D10C211E4EB2D700C65D97 /* PBXTargetDependency */,
+			);
+			name = "UITouch关于手指的移动Tests";
+			productName = "UITouch关于手指的移动Tests";
+			productReference = 13D10C1F1E4EB2D700C65D97 /* UITouch关于手指的移动Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13D10C291E4EB2D700C65D97 /* UITouch关于手指的移动UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D10C391E4EB2D700C65D97 /* Build configuration list for PBXNativeTarget "UITouch关于手指的移动UITests" */;
+			buildPhases = (
+				13D10C261E4EB2D700C65D97 /* Sources */,
+				13D10C271E4EB2D700C65D97 /* Frameworks */,
+				13D10C281E4EB2D700C65D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13D10C2C1E4EB2D700C65D97 /* PBXTargetDependency */,
+			);
+			name = "UITouch关于手指的移动UITests";
+			productName = "UITouch关于手指的移动UITests";
+			productReference = 13D10C2A1E4EB2D700C65D97 /* UITouch关于手指的移动UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13D10BFE1E4EB2D700C65D97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = liuhangkai;
+				TargetAttributes = {
+					13D10C051E4EB2D700C65D97 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 35ZMA5E75L;
+						ProvisioningStyle = Automatic;
+					};
+					13D10C1E1E4EB2D700C65D97 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 35ZMA5E75L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13D10C051E4EB2D700C65D97;
+					};
+					13D10C291E4EB2D700C65D97 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 35ZMA5E75L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13D10C051E4EB2D700C65D97;
+					};
+				};
+			};
+			buildConfigurationList = 13D10C011E4EB2D700C65D97 /* Build configuration list for PBXProject "UITouch关于手指的移动" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13D10BFD1E4EB2D700C65D97;
+			productRefGroup = 13D10C071E4EB2D700C65D97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13D10C051E4EB2D700C65D97 /* UITouch关于手指的移动 */,
+				13D10C1E1E4EB2D700C65D97 /* UITouch关于手指的移动Tests */,
+				13D10C291E4EB2D700C65D97 /* UITouch关于手指的移动UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13D10C041E4EB2D700C65D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D10C451E4EB33D00C65D97 /* ThreeVc.xib in Resources */,
+				13D10C191E4EB2D700C65D97 /* LaunchScreen.storyboard in Resources */,
+				13D10C161E4EB2D700C65D97 /* Assets.xcassets in Resources */,
+				13D10C401E4EB32400C65D97 /* SecondVc.xib in Resources */,
+				13D10C141E4EB2D700C65D97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D10C1D1E4EB2D700C65D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D10C281E4EB2D700C65D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13D10C021E4EB2D700C65D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D10C111E4EB2D700C65D97 /* ViewController.m in Sources */,
+				13D10C0E1E4EB2D700C65D97 /* AppDelegate.m in Sources */,
+				13D10C3F1E4EB32400C65D97 /* SecondVc.m in Sources */,
+				13D10C0B1E4EB2D700C65D97 /* main.m in Sources */,
+				13D10C441E4EB33D00C65D97 /* ThreeVc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D10C1B1E4EB2D700C65D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D10C241E4EB2D700C65D97 /* UITouch_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D10C261E4EB2D700C65D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D10C2F1E4EB2D700C65D97 /* UITouch_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13D10C211E4EB2D700C65D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13D10C051E4EB2D700C65D97 /* UITouch关于手指的移动 */;
+			targetProxy = 13D10C201E4EB2D700C65D97 /* PBXContainerItemProxy */;
+		};
+		13D10C2C1E4EB2D700C65D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13D10C051E4EB2D700C65D97 /* UITouch关于手指的移动 */;
+			targetProxy = 13D10C2B1E4EB2D700C65D97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13D10C121E4EB2D700C65D97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13D10C131E4EB2D700C65D97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13D10C171E4EB2D700C65D97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13D10C181E4EB2D700C65D97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13D10C311E4EB2D700C65D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13D10C321E4EB2D700C65D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13D10C341E4EB2D700C65D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35ZMA5E75L;
+				INFOPLIST_FILE = "UITouch关于手指的移动/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liu.liuhangkaid.UITouch-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13D10C351E4EB2D700C65D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35ZMA5E75L;
+				INFOPLIST_FILE = "UITouch关于手指的移动/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liu.liuhangkaid.UITouch-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13D10C371E4EB2D700C65D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 35ZMA5E75L;
+				INFOPLIST_FILE = "UITouch关于手指的移动Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liu.liuhangkaid.UITouch-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITouch关于手指的移动.app/UITouch关于手指的移动";
+			};
+			name = Debug;
+		};
+		13D10C381E4EB2D700C65D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 35ZMA5E75L;
+				INFOPLIST_FILE = "UITouch关于手指的移动Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liu.liuhangkaid.UITouch-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITouch关于手指的移动.app/UITouch关于手指的移动";
+			};
+			name = Release;
+		};
+		13D10C3A1E4EB2D700C65D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 35ZMA5E75L;
+				INFOPLIST_FILE = "UITouch关于手指的移动UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liu.liuhangkaid.UITouch-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UITouch关于手指的移动";
+			};
+			name = Debug;
+		};
+		13D10C3B1E4EB2D700C65D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 35ZMA5E75L;
+				INFOPLIST_FILE = "UITouch关于手指的移动UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liu.liuhangkaid.UITouch-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UITouch关于手指的移动";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13D10C011E4EB2D700C65D97 /* Build configuration list for PBXProject "UITouch关于手指的移动" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D10C311E4EB2D700C65D97 /* Debug */,
+				13D10C321E4EB2D700C65D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13D10C331E4EB2D700C65D97 /* Build configuration list for PBXNativeTarget "UITouch关于手指的移动" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D10C341E4EB2D700C65D97 /* Debug */,
+				13D10C351E4EB2D700C65D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13D10C361E4EB2D700C65D97 /* Build configuration list for PBXNativeTarget "UITouch关于手指的移动Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D10C371E4EB2D700C65D97 /* Debug */,
+				13D10C381E4EB2D700C65D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13D10C391E4EB2D700C65D97 /* Build configuration list for PBXNativeTarget "UITouch关于手指的移动UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D10C3A1E4EB2D700C65D97 /* Debug */,
+				13D10C3B1E4EB2D700C65D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13D10BFE1E4EB2D700C65D97 /* Project object */;
+}
