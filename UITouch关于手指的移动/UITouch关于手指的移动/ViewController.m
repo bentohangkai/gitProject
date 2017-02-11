@@ -41,8 +41,8 @@
 
 -(void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     UITouch *touch = [touches anyObject];
-    CGPoint prepoint = [touch previousLocationInView:touch.view];
-    CGPoint point = [touch locationInView:touch.view];
+    CGPoint prepoint = [touch previousLocationInView:self.redView];
+    CGPoint point = [touch locationInView:self.redView];
     NSLog(@"%lf",point.x);
     self.redView.transform = CGAffineTransformTranslate(self.redView.transform, point.x-prepoint.x, point.y-prepoint.y);
 }
