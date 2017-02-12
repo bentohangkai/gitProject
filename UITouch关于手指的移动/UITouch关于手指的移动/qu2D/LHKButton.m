@@ -32,8 +32,6 @@
         self.backgroundColor = [UIColor lightGrayColor];
         self.layer.borderColor = [UIColor redColor].CGColor;
         self.layer.borderWidth = 2;
-        
-    
     }
     return self;
 }
