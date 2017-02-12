@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1346084D1E4F6C0400666329 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1346084C1E4F6C0400666329 /* MapView.m */; };
+		134608501E4F718800666329 /* MyNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 1346084F1E4F718800666329 /* MyNav.m */; };
+		134608531E4FFC7F00666329 /* LHKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 134608521E4FFC7F00666329 /* LHKButton.m */; };
+		1382F1021E4EF3F300A3702C /* HitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1382F1001E4EF3F300A3702C /* HitViewController.m */; };
+		1382F1031E4EF3F300A3702C /* HitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1382F1011E4EF3F300A3702C /* HitViewController.xib */; };
+		1382F1061E4EF6DF00A3702C /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1382F1051E4EF6DF00A3702C /* BaseView.m */; };
+		1382F1091E4EF6F500A3702C /* GreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1382F1081E4EF6F500A3702C /* GreenView.m */; };
+		1382F10C1E4EF70A00A3702C /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1382F10B1E4EF70A00A3702C /* RedView.m */; };
+		1382F10F1E4EF71900A3702C /* BlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1382F10E1E4EF71900A3702C /* BlueView.m */; };
+		1382F1121E4F023400A3702C /* BlackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1382F1111E4F023400A3702C /* BlackView.m */; };
+		1382F1171E4F1BDE00A3702C /* AnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1382F1151E4F1BDE00A3702C /* AnViewController.m */; };
+		1382F1181E4F1BDE00A3702C /* AnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1382F1161E4F1BDE00A3702C /* AnViewController.xib */; };
+		1382F11D1E4F68DA00A3702C /* Q2DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1382F11B1E4F68DA00A3702C /* Q2DViewController.m */; };
+		1382F11E1E4F68DA00A3702C /* Q2DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1382F11C1E4F68DA00A3702C /* Q2DViewController.xib */; };
 		13D10C0B1E4EB2D700C65D97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D10C0A1E4EB2D700C65D97 /* main.m */; };
 		13D10C0E1E4EB2D700C65D97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D10C0D1E4EB2D700C65D97 /* AppDelegate.m */; };
 		13D10C111E4EB2D700C65D97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D10C101E4EB2D700C65D97 /* ViewController.m */; };
@@ -39,6 +53,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1346084B1E4F6C0400666329 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		1346084C1E4F6C0400666329 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+		1346084E1E4F718800666329 /* MyNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNav.h; sourceTree = "<group>"; };
+		1346084F1E4F718800666329 /* MyNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNav.m; sourceTree = "<group>"; };
+		134608511E4FFC7F00666329 /* LHKButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHKButton.h; sourceTree = "<group>"; };
+		134608521E4FFC7F00666329 /* LHKButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHKButton.m; sourceTree = "<group>"; };
+		1382F0FF1E4EF3F300A3702C /* HitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitViewController.h; sourceTree = "<group>"; };
+		1382F1001E4EF3F300A3702C /* HitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitViewController.m; sourceTree = "<group>"; };
+		1382F1011E4EF3F300A3702C /* HitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HitViewController.xib; sourceTree = "<group>"; };
+		1382F1041E4EF6DF00A3702C /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		1382F1051E4EF6DF00A3702C /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		1382F1071E4EF6F500A3702C /* GreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenView.h; sourceTree = "<group>"; };
+		1382F1081E4EF6F500A3702C /* GreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenView.m; sourceTree = "<group>"; };
+		1382F10A1E4EF70A00A3702C /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		1382F10B1E4EF70A00A3702C /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
+		1382F10D1E4EF71900A3702C /* BlueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueView.h; sourceTree = "<group>"; };
+		1382F10E1E4EF71900A3702C /* BlueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueView.m; sourceTree = "<group>"; };
+		1382F1101E4F023400A3702C /* BlackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackView.h; sourceTree = "<group>"; };
+		1382F1111E4F023400A3702C /* BlackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackView.m; sourceTree = "<group>"; };
+		1382F1141E4F1BDE00A3702C /* AnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnViewController.h; sourceTree = "<group>"; };
+		1382F1151E4F1BDE00A3702C /* AnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnViewController.m; sourceTree = "<group>"; };
+		1382F1161E4F1BDE00A3702C /* AnViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnViewController.xib; sourceTree = "<group>"; };
+		1382F11A1E4F68DA00A3702C /* Q2DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q2DViewController.h; sourceTree = "<group>"; };
+		1382F11B1E4F68DA00A3702C /* Q2DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q2DViewController.m; sourceTree = "<group>"; };
+		1382F11C1E4F68DA00A3702C /* Q2DViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Q2DViewController.xib; sourceTree = "<group>"; };
 		13D10C061E4EB2D700C65D97 /* UITouch关于手指的移动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITouch关于手指的移动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D10C0A1E4EB2D700C65D97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		13D10C0C1E4EB2D700C65D97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,9 +127,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1382F0FE1E4EF32500A3702C /* 响应者时间传递 */ = {
+			isa = PBXGroup;
+			children = (
+				1382F0FF1E4EF3F300A3702C /* HitViewController.h */,
+				1382F1001E4EF3F300A3702C /* HitViewController.m */,
+				1382F1011E4EF3F300A3702C /* HitViewController.xib */,
+				1382F1041E4EF6DF00A3702C /* BaseView.h */,
+				1382F1051E4EF6DF00A3702C /* BaseView.m */,
+				1382F1071E4EF6F500A3702C /* GreenView.h */,
+				1382F1081E4EF6F500A3702C /* GreenView.m */,
+				1382F10A1E4EF70A00A3702C /* RedView.h */,
+				1382F10B1E4EF70A00A3702C /* RedView.m */,
+				1382F10D1E4EF71900A3702C /* BlueView.h */,
+				1382F10E1E4EF71900A3702C /* BlueView.m */,
+				1382F1101E4F023400A3702C /* BlackView.h */,
+				1382F1111E4F023400A3702C /* BlackView.m */,
+			);
+			path = "响应者时间传递";
+			sourceTree = "<group>";
+		};
+		1382F1131E4F1BA600A3702C /* 动画vC */ = {
+			isa = PBXGroup;
+			children = (
+				1382F1141E4F1BDE00A3702C /* AnViewController.h */,
+				1382F1151E4F1BDE00A3702C /* AnViewController.m */,
+				1382F1161E4F1BDE00A3702C /* AnViewController.xib */,
+			);
+			path = "动画vC";
+			sourceTree = "<group>";
+		};
+		1382F1191E4F689C00A3702C /* qu2D */ = {
+			isa = PBXGroup;
+			children = (
+				1382F11A1E4F68DA00A3702C /* Q2DViewController.h */,
+				1382F11B1E4F68DA00A3702C /* Q2DViewController.m */,
+				1382F11C1E4F68DA00A3702C /* Q2DViewController.xib */,
+				1346084B1E4F6C0400666329 /* MapView.h */,
+				1346084C1E4F6C0400666329 /* MapView.m */,
+				134608511E4FFC7F00666329 /* LHKButton.h */,
+				134608521E4FFC7F00666329 /* LHKButton.m */,
+			);
+			path = qu2D;
+			sourceTree = "<group>";
+		};
 		13D10BFD1E4EB2D700C65D97 = {
 			isa = PBXGroup;
 			children = (
+				1346084E1E4F718800666329 /* MyNav.h */,
+				1346084F1E4F718800666329 /* MyNav.m */,
 				13D10C081E4EB2D700C65D97 /* UITouch关于手指的移动 */,
 				13D10C221E4EB2D700C65D97 /* UITouch关于手指的移动Tests */,
 				13D10C2D1E4EB2D700C65D97 /* UITouch关于手指的移动UITests */,
@@ -111,6 +196,9 @@
 		13D10C081E4EB2D700C65D97 /* UITouch关于手指的移动 */ = {
 			isa = PBXGroup;
 			children = (
+				1382F1191E4F689C00A3702C /* qu2D */,
+				1382F1131E4F1BA600A3702C /* 动画vC */,
+				1382F0FE1E4EF32500A3702C /* 响应者时间传递 */,
 				13D10C0C1E4EB2D700C65D97 /* AppDelegate.h */,
 				13D10C0D1E4EB2D700C65D97 /* AppDelegate.m */,
 				13D10C0F1E4EB2D700C65D97 /* ViewController.h */,
@@ -223,7 +311,7 @@
 				TargetAttributes = {
 					13D10C051E4EB2D700C65D97 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 35ZMA5E75L;
+						DevelopmentTeam = S2CRPD33DC;
 						ProvisioningStyle = Automatic;
 					};
 					13D10C1E1E4EB2D700C65D97 = {
@@ -265,10 +353,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1382F1031E4EF3F300A3702C /* HitViewController.xib in Resources */,
 				13D10C451E4EB33D00C65D97 /* ThreeVc.xib in Resources */,
 				13D10C191E4EB2D700C65D97 /* LaunchScreen.storyboard in Resources */,
 				13D10C161E4EB2D700C65D97 /* Assets.xcassets in Resources */,
+				1382F11E1E4F68DA00A3702C /* Q2DViewController.xib in Resources */,
 				13D10C401E4EB32400C65D97 /* SecondVc.xib in Resources */,
+				1382F1181E4F1BDE00A3702C /* AnViewController.xib in Resources */,
 				13D10C141E4EB2D700C65D97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,10 +386,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				13D10C111E4EB2D700C65D97 /* ViewController.m in Sources */,
+				134608531E4FFC7F00666329 /* LHKButton.m in Sources */,
 				13D10C0E1E4EB2D700C65D97 /* AppDelegate.m in Sources */,
+				1382F11D1E4F68DA00A3702C /* Q2DViewController.m in Sources */,
+				134608501E4F718800666329 /* MyNav.m in Sources */,
+				1382F10F1E4EF71900A3702C /* BlueView.m in Sources */,
+				1382F1171E4F1BDE00A3702C /* AnViewController.m in Sources */,
+				1382F1091E4EF6F500A3702C /* GreenView.m in Sources */,
+				1382F1121E4F023400A3702C /* BlackView.m in Sources */,
+				1382F1061E4EF6DF00A3702C /* BaseView.m in Sources */,
 				13D10C3F1E4EB32400C65D97 /* SecondVc.m in Sources */,
 				13D10C0B1E4EB2D700C65D97 /* main.m in Sources */,
+				1382F1021E4EF3F300A3702C /* HitViewController.m in Sources */,
+				1346084D1E4F6C0400666329 /* MapView.m in Sources */,
 				13D10C441E4EB33D00C65D97 /* ThreeVc.m in Sources */,
+				1382F10C1E4EF70A00A3702C /* RedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,9 +549,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 35ZMA5E75L;
+				DEVELOPMENT_TEAM = S2CRPD33DC;
 				INFOPLIST_FILE = "UITouch关于手指的移动/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.liu.liuhangkaid.UITouch-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -460,9 +562,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 35ZMA5E75L;
+				DEVELOPMENT_TEAM = S2CRPD33DC;
 				INFOPLIST_FILE = "UITouch关于手指的移动/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.liu.liuhangkaid.UITouch-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -538,6 +640,7 @@
 				13D10C351E4EB2D700C65D97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13D10C361E4EB2D700C65D97 /* Build configuration list for PBXNativeTarget "UITouch关于手指的移动Tests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +649,7 @@
 				13D10C381E4EB2D700C65D97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13D10C391E4EB2D700C65D97 /* Build configuration list for PBXNativeTarget "UITouch关于手指的移动UITests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +658,7 @@
 				13D10C3B1E4EB2D700C65D97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,6 +10,7 @@
 #import "SecondVc.h"
 #import "ThreeVc.h"
 #import "ViewController.h"
+#import "MyNav.h"
 
 @interface AppDelegate ()
 
@@ -25,11 +26,11 @@
     SecondVc *vc2 = [[SecondVc alloc]init];
     ThreeVc *vc3 = [[ThreeVc alloc]init];
     
-    UINavigationController *nav1 = [[UINavigationController alloc]initWithRootViewController:vc1];
+    MyNav *nav1 = [[MyNav alloc]initWithRootViewController:vc1];
     nav1.title = @"1";
-    UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:vc2];
+    MyNav *nav2 = [[MyNav alloc]initWithRootViewController:vc2];
     nav2.title = @"2";
-    UINavigationController *nav3 = [[UINavigationController alloc]initWithRootViewController:vc3];
+    MyNav *nav3 = [[MyNav alloc]initWithRootViewController:vc3];
     nav3.title = @"3";
     
     UITabBarController *_rootVc = [[UITabBarController alloc]init];
