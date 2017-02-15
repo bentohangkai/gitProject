@@ -11,6 +11,10 @@
 #import "HitViewController.h"
 #import "AnViewController.h"
 #import "Q2DViewController.h"
+#import "AppDelegate.h"
+#import "TestViewController.h"
+#import "TableViewController.h"
+#import "NSString+MD5.h"
 
 @interface ViewController ()
 
@@ -23,6 +27,15 @@
 @property(nonatomic,strong)UIButton *anBtn;
 /** qu2D */
 @property(nonatomic,strong)UIButton *qu2D;
+
+/** 黑色的View */
+@property(nonatomic,strong)UIView *blackView;
+
+/** <#type#> */
+@property(nonatomic,strong)TestViewController *testVc;
+
+/** <#type#> */
+@property(nonatomic,strong)UITableViewController *tableVc;
 
 @end
 
@@ -37,6 +50,32 @@
     [self.view addSubview:self.anBtn];
     [self.view addSubview:self.qu2D];
     
+//    TableViewController *tabVc = [[UIStoryboard storyboardWithName:@"TableStory" bundle:nil] instantiateViewControllerWithIdentifier:@"tab"];
+//    self.tableVc = tabVc;
+//    self.tableVc.tableView.tableFooterView = [UIView new];
+//    
+//    [[UIApplication sharedApplication].keyWindow addSubview:tabVc.view];
+//    
+//    
+//    NSTimeInterval time = [[NSDate date] timeIntervalSince1970];
+//    NSString *string = [NSString stringWithFormat:@"%.0fyisuxing",time];
+//    NSString *md5String = [string md5];
+//   
+//    NSLog(@"--time---%.0f",time);
+//    NSLog(@"-sign---%@",md5String);
+//    NSLog(@"---uid---%@",[@"13016089762" md5]);
+   
+    
+    
+
+
+}
+-(TestViewController *)testVc{
+    if (_testVc == nil) {
+        _testVc = [[TestViewController alloc]init];
+        _testVc.view.frame = self.view.bounds;
+    }
+    return _testVc;
 }
 
 -(UIButton *)hitBtn{

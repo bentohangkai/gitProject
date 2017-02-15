@@ -22,6 +22,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
     ViewController *vc1 = [[ViewController alloc]init];
     SecondVc *vc2 = [[SecondVc alloc]init];
     ThreeVc *vc3 = [[ThreeVc alloc]init];
@@ -38,7 +39,7 @@
     [_rootVc addChildViewController:nav2];
     [_rootVc addChildViewController:nav3];
     self.window.rootViewController = _rootVc;
-    [self.window makeKeyAndVisible];
+    
     
     
     return YES;

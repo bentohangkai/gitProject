@@ -16,14 +16,14 @@
 - (void)drawRect:(CGRect)rect {
     // Drawing code
     
-    CGContextRef ctx = UIGraphicsGetCurrentContext();
-    CGContextTranslateCTM(ctx, 30, -40);
-    
-    UIBezierPath *path = [UIBezierPath bezierPath];
-    [path addArcWithCenter:CGPointMake(0, 0) radius:30 startAngle:0 endAngle:M_PI*2 clockwise:0];
-    
-    CGContextAddPath(ctx, path.CGPath);
-    CGContextStrokePath(ctx);
+//    CGContextRef ctx = UIGraphicsGetCurrentContext();
+//    CGContextTranslateCTM(ctx, 30, -40);
+//    
+//    UIBezierPath *path = [UIBezierPath bezierPath];
+//    [path addArcWithCenter:CGPointMake(0, 0) radius:30 startAngle:0 endAngle:M_PI*2 clockwise:0];
+//    
+//    CGContextAddPath(ctx, path.CGPath);
+//    CGContextStrokePath(ctx);
 }
 
 
@@ -32,8 +32,19 @@
         self.backgroundColor = [UIColor lightGrayColor];
         self.layer.borderColor = [UIColor redColor].CGColor;
         self.layer.borderWidth = 2;
+        [self drawBorder];
+        self.backgroundColor = [UIColor redColor];
+
     }
     return self;
 }
+-(void)drawBorder{
+    UIBezierPath *path = [UIBezierPath bezierPath];
+    [path addArcWithCenter:CGPointMake(0, 0) radius:30 startAngle:0 endAngle:M_PI*2 clockwise:0];
+    CAShapeLayer *shaper = [CAShapeLayer layer];
 
+    shaper.path= path.CGPath;
+    
+//    self.layer.mask= shaper;
+}
 @end

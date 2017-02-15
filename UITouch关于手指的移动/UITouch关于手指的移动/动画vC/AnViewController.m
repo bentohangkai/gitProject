@@ -44,6 +44,10 @@
     
     }
 
+-(void)keyAnimal{
+    
+}
+
 -(CALayer *)secLayer{
     if (_secLayer == nil) {
         _secLayer = [[CALayer alloc]init];

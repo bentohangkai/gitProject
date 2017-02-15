@@ -18,7 +18,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="21e-P2-6GE">
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="21e-P2-6GE" customClass="CAShapView">
                     <rect key="frame" x="43" y="447" width="268" height="200"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.31706257380000002" green="1" blue="0.27540049449999998" alpha="1" colorSpace="calibratedRGB"/>

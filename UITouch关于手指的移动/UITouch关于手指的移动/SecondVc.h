@@ -10,4 +10,5 @@
 
 @interface SecondVc : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *coreBtn;
 @end
