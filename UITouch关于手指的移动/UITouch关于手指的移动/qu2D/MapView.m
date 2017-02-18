@@ -45,7 +45,7 @@
 //    [self DrawBese];
 //    [self drawPrgressView];
     
-    [self drawArc4];
+//    [self drawArc4];
    
     
     

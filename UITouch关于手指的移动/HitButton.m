@@ -59,7 +59,9 @@
 }
 
 -(UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event{
-   CGPoint point1 =  [self convertPoint:point toView:self.zhanshiBtn];
+  
+    CGPoint point1 =  [self convertPoint:point toView:self.zhanshiBtn];
+    NSLog(@"%@",NSStringFromCGPoint(point1));
     
     
     if ([self.zhanshiBtn pointInside:point1 withEvent:event]) {
