@@ -23,6 +23,10 @@
 		1382F1181E4F1BDE00A3702C /* AnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1382F1161E4F1BDE00A3702C /* AnViewController.xib */; };
 		1382F11D1E4F68DA00A3702C /* Q2DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1382F11B1E4F68DA00A3702C /* Q2DViewController.m */; };
 		1382F11E1E4F68DA00A3702C /* Q2DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1382F11C1E4F68DA00A3702C /* Q2DViewController.xib */; };
+		13B0C3D91E5A073A00FE88A8 /* ModelVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B0C3D71E5A073A00FE88A8 /* ModelVc.m */; };
+		13B0C3DA1E5A073A00FE88A8 /* ModelVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B0C3D81E5A073A00FE88A8 /* ModelVc.xib */; };
+		13B0C3DD1E5A07C600FE88A8 /* ModelAn.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B0C3DC1E5A07C600FE88A8 /* ModelAn.m */; };
+		13C50E071E5B281C00C50925 /* ThreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C50E061E5B281C00C50925 /* ThreeView.m */; };
 		13D10C0B1E4EB2D700C65D97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D10C0A1E4EB2D700C65D97 /* main.m */; };
 		13D10C0E1E4EB2D700C65D97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D10C0D1E4EB2D700C65D97 /* AppDelegate.m */; };
 		13D10C111E4EB2D700C65D97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D10C101E4EB2D700C65D97 /* ViewController.m */; };
@@ -100,6 +104,13 @@
 		1382F11A1E4F68DA00A3702C /* Q2DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q2DViewController.h; sourceTree = "<group>"; };
 		1382F11B1E4F68DA00A3702C /* Q2DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q2DViewController.m; sourceTree = "<group>"; };
 		1382F11C1E4F68DA00A3702C /* Q2DViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Q2DViewController.xib; sourceTree = "<group>"; };
+		13B0C3D61E5A073A00FE88A8 /* ModelVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelVc.h; sourceTree = "<group>"; };
+		13B0C3D71E5A073A00FE88A8 /* ModelVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelVc.m; sourceTree = "<group>"; };
+		13B0C3D81E5A073A00FE88A8 /* ModelVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModelVc.xib; sourceTree = "<group>"; };
+		13B0C3DB1E5A07C600FE88A8 /* ModelAn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelAn.h; sourceTree = "<group>"; };
+		13B0C3DC1E5A07C600FE88A8 /* ModelAn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelAn.m; sourceTree = "<group>"; };
+		13C50E051E5B281C00C50925 /* ThreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeView.h; sourceTree = "<group>"; };
+		13C50E061E5B281C00C50925 /* ThreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeView.m; sourceTree = "<group>"; };
 		13D10C061E4EB2D700C65D97 /* UITouch关于手指的移动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITouch关于手指的移动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D10C0A1E4EB2D700C65D97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		13D10C0C1E4EB2D700C65D97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -209,6 +220,11 @@
 				1382F1141E4F1BDE00A3702C /* AnViewController.h */,
 				1382F1151E4F1BDE00A3702C /* AnViewController.m */,
 				1382F1161E4F1BDE00A3702C /* AnViewController.xib */,
+				13B0C3D61E5A073A00FE88A8 /* ModelVc.h */,
+				13B0C3D71E5A073A00FE88A8 /* ModelVc.m */,
+				13B0C3D81E5A073A00FE88A8 /* ModelVc.xib */,
+				13B0C3DB1E5A07C600FE88A8 /* ModelAn.h */,
+				13B0C3DC1E5A07C600FE88A8 /* ModelAn.m */,
 			);
 			path = "动画vC";
 			sourceTree = "<group>";
@@ -235,9 +251,17 @@
 			path = qu2D;
 			sourceTree = "<group>";
 		};
+		13BEBCBA1E5FD38F00BA6998 /* jiami */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = jiami;
+			sourceTree = "<group>";
+		};
 		13D10BFD1E4EB2D700C65D97 = {
 			isa = PBXGroup;
 			children = (
+				13BEBCBA1E5FD38F00BA6998 /* jiami */,
 				132EB8281E53E9D100592885 /* HitButton.h */,
 				132EB8291E53E9D100592885 /* HitButton.m */,
 				13FA89791E530B34000FAFA3 /* NSString+MD5.h */,
@@ -283,6 +307,8 @@
 				13D10C411E4EB33D00C65D97 /* ThreeVc.h */,
 				13D10C421E4EB33D00C65D97 /* ThreeVc.m */,
 				13D10C431E4EB33D00C65D97 /* ThreeVc.xib */,
+				13C50E051E5B281C00C50925 /* ThreeView.h */,
+				13C50E061E5B281C00C50925 /* ThreeView.m */,
 			);
 			path = "UITouch关于手指的移动";
 			sourceTree = "<group>";
@@ -461,6 +487,7 @@
 				13D10C161E4EB2D700C65D97 /* Assets.xcassets in Resources */,
 				13DA667E1E51FA8900CADFF6 /* TestViewController.xib in Resources */,
 				1382F11E1E4F68DA00A3702C /* Q2DViewController.xib in Resources */,
+				13B0C3DA1E5A073A00FE88A8 /* ModelVc.xib in Resources */,
 				13D10C401E4EB32400C65D97 /* SecondVc.xib in Resources */,
 				1382F1181E4F1BDE00A3702C /* AnViewController.xib in Resources */,
 				13DA669A1E51FCF300CADFF6 /* Info.plist in Resources */,
@@ -504,6 +531,8 @@
 				1382F10F1E4EF71900A3702C /* BlueView.m in Sources */,
 				13FA897B1E530B34000FAFA3 /* NSString+MD5.m in Sources */,
 				1382F1171E4F1BDE00A3702C /* AnViewController.m in Sources */,
+				13B0C3D91E5A073A00FE88A8 /* ModelVc.m in Sources */,
+				13C50E071E5B281C00C50925 /* ThreeView.m in Sources */,
 				13DA66A11E51FCF300CADFF6 /* NSArray+MASAdditions.m in Sources */,
 				13DA66A21E51FCF300CADFF6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				132EB82A1E53E9D100592885 /* HitButton.m in Sources */,
@@ -516,6 +545,7 @@
 				13D10C3F1E4EB32400C65D97 /* SecondVc.m in Sources */,
 				13D10C0B1E4EB2D700C65D97 /* main.m in Sources */,
 				1382F1021E4EF3F300A3702C /* HitViewController.m in Sources */,
+				13B0C3DD1E5A07C600FE88A8 /* ModelAn.m in Sources */,
 				13DA669E1E51FCF300CADFF6 /* MASLayoutConstraint.m in Sources */,
 				1346084D1E4F6C0400666329 /* MapView.m in Sources */,
 				13D10C441E4EB33D00C65D97 /* ThreeVc.m in Sources */,

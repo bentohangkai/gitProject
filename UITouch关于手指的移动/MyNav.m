@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.navigationBar.translucent =NO;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,11 +36,12 @@
 */
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
+
 {
+
     if (self.viewControllers.count > 0) { // 如果现在push的不是栈底控制器(最先push进来的那个控制器)
-        
         viewController.hidesBottomBarWhenPushed = YES;
-        
+    
 //        //退出账号
 //        UIButton *rightBtn = [UIButton buttonWithType:1];
 //        rightBtn.frame = CGRectMake(0, 10, 40*RATIO, 22*RATIO);
@@ -60,9 +62,31 @@
         //        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"icon_arrow_left_white"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
         
         //   NSLog(@"能拦截所有push进来的子控制器");
+    
+    
+//    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
+//    view.backgroundColor = [UIColor redColor];
+//    
+//    viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:view];
+//    
+//    
+//    viewController.title = @"测试";
+        
+        
+        
     }
+    
+    
     
     [super pushViewController:viewController animated:YES];
     
+}
+
+
++(void)initialize{
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    
+    dict[NSForegroundColorAttributeName]=[UIColor yellowColor];
+    [[UINavigationBar appearance] setTitleTextAttributes:dict];
 }
 @end

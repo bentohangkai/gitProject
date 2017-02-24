@@ -12,6 +12,7 @@
 //
 
 #import "AnViewController.h"
+#import "ModelVc.h"
 #define SCRREN_WIDTH     [UIScreen mainScreen].bounds.size.width
 #define SCRREN_HEIGHT         [UIScreen mainScreen].bounds.size.height
 

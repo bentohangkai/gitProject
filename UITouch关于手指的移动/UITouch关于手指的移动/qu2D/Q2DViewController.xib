@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Q2DViewController">
             <connections>
+                <outlet property="btn" destination="KDh-TO-6Yj" id="y6L-Dq-B3k"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,21 +19,31 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="21e-P2-6GE" customClass="CAShapView">
-                    <rect key="frame" x="43" y="447" width="268" height="200"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="0.31706257380000002" green="1" blue="0.27540049449999998" alpha="1" colorSpace="calibratedRGB"/>
-                </view>
                 <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="LFp-Pb-CIX">
-                    <rect key="frame" x="41" y="318" width="242" height="31"/>
+                    <rect key="frame" x="49" y="71" width="242" height="31"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <connections>
                         <action selector="ProgressViewClick:" destination="-1" eventType="valueChanged" id="hcb-K1-nwd"/>
                     </connections>
                 </slider>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="21e-P2-6GE" customClass="CAShapView">
+                    <rect key="frame" x="34" y="399" width="268" height="200"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDh-TO-6Yj">
+                            <rect key="frame" x="8" y="18" width="46" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="modelClick:" destination="-1" eventType="touchUpInside" id="gjb-nu-rkM"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.31706257380000002" green="1" blue="0.27540049449999998" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <point key="canvasLocation" x="26.5" y="52.5"/>
+            <point key="canvasLocation" x="-1" y="-669"/>
         </view>
     </objects>
 </document>
