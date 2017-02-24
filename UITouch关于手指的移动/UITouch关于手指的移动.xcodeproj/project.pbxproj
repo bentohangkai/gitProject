@@ -26,6 +26,18 @@
 		13B0C3D91E5A073A00FE88A8 /* ModelVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B0C3D71E5A073A00FE88A8 /* ModelVc.m */; };
 		13B0C3DA1E5A073A00FE88A8 /* ModelVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B0C3D81E5A073A00FE88A8 /* ModelVc.xib */; };
 		13B0C3DD1E5A07C600FE88A8 /* ModelAn.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B0C3DC1E5A07C600FE88A8 /* ModelAn.m */; };
+		13BEBCBF1E5FD3F200BA6998 /* JiaMiVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BEBCBD1E5FD3F200BA6998 /* JiaMiVc.m */; };
+		13BEBCC01E5FD3F200BA6998 /* JiaMiVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13BEBCBE1E5FD3F200BA6998 /* JiaMiVc.xib */; };
+		13BEBCC31E5FD47A00BA6998 /* RSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BEBCC21E5FD47A00BA6998 /* RSAEncryptor.m */; };
+		13BEBCC61E5FD48C00BA6998 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BEBCC51E5FD48C00BA6998 /* Security.framework */; };
+		13BEBCD21E5FD80C00BA6998 /* pkcs8_private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 13BEBCCB1E5FD80C00BA6998 /* pkcs8_private_key.pem */; };
+		13BEBCD31E5FD80C00BA6998 /* private_key.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 13BEBCCC1E5FD80C00BA6998 /* private_key.p12 */; };
+		13BEBCD41E5FD80C00BA6998 /* private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 13BEBCCD1E5FD80C00BA6998 /* private_key.pem */; };
+		13BEBCD51E5FD80C00BA6998 /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 13BEBCCE1E5FD80C00BA6998 /* public_key.der */; };
+		13BEBCD61E5FD80C00BA6998 /* rsa_public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 13BEBCCF1E5FD80C00BA6998 /* rsa_public_key.pem */; };
+		13BEBCD71E5FD80C00BA6998 /* rsaCerReq.csr in Resources */ = {isa = PBXBuildFile; fileRef = 13BEBCD01E5FD80C00BA6998 /* rsaCerReq.csr */; };
+		13BEBCD81E5FD80C00BA6998 /* rsaCert.crt in Resources */ = {isa = PBXBuildFile; fileRef = 13BEBCD11E5FD80C00BA6998 /* rsaCert.crt */; };
+		13BEBCDB1E5FDA3000BA6998 /* 屏幕快照 2017-02-24 上午11.03.46.png in Resources */ = {isa = PBXBuildFile; fileRef = 13BEBCDA1E5FDA3000BA6998 /* 屏幕快照 2017-02-24 上午11.03.46.png */; };
 		13C50E071E5B281C00C50925 /* ThreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C50E061E5B281C00C50925 /* ThreeView.m */; };
 		13D10C0B1E4EB2D700C65D97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D10C0A1E4EB2D700C65D97 /* main.m */; };
 		13D10C0E1E4EB2D700C65D97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D10C0D1E4EB2D700C65D97 /* AppDelegate.m */; };
@@ -109,6 +121,21 @@
 		13B0C3D81E5A073A00FE88A8 /* ModelVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModelVc.xib; sourceTree = "<group>"; };
 		13B0C3DB1E5A07C600FE88A8 /* ModelAn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelAn.h; sourceTree = "<group>"; };
 		13B0C3DC1E5A07C600FE88A8 /* ModelAn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelAn.m; sourceTree = "<group>"; };
+		13BEBCBC1E5FD3F200BA6998 /* JiaMiVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiaMiVc.h; sourceTree = "<group>"; };
+		13BEBCBD1E5FD3F200BA6998 /* JiaMiVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiaMiVc.m; sourceTree = "<group>"; };
+		13BEBCBE1E5FD3F200BA6998 /* JiaMiVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JiaMiVc.xib; sourceTree = "<group>"; };
+		13BEBCC11E5FD47A00BA6998 /* RSAEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAEncryptor.h; sourceTree = "<group>"; };
+		13BEBCC21E5FD47A00BA6998 /* RSAEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAEncryptor.m; sourceTree = "<group>"; };
+		13BEBCC51E5FD48C00BA6998 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		13BEBCCB1E5FD80C00BA6998 /* pkcs8_private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pkcs8_private_key.pem; sourceTree = "<group>"; };
+		13BEBCCC1E5FD80C00BA6998 /* private_key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = private_key.p12; sourceTree = "<group>"; };
+		13BEBCCD1E5FD80C00BA6998 /* private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = private_key.pem; sourceTree = "<group>"; };
+		13BEBCCE1E5FD80C00BA6998 /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
+		13BEBCCF1E5FD80C00BA6998 /* rsa_public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_public_key.pem; sourceTree = "<group>"; };
+		13BEBCD01E5FD80C00BA6998 /* rsaCerReq.csr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsaCerReq.csr; sourceTree = "<group>"; };
+		13BEBCD11E5FD80C00BA6998 /* rsaCert.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsaCert.crt; sourceTree = "<group>"; };
+		13BEBCD91E5FD81F00BA6998 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		13BEBCDA1E5FDA3000BA6998 /* 屏幕快照 2017-02-24 上午11.03.46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-02-24 上午11.03.46.png"; sourceTree = "<group>"; };
 		13C50E051E5B281C00C50925 /* ThreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeView.h; sourceTree = "<group>"; };
 		13C50E061E5B281C00C50925 /* ThreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeView.m; sourceTree = "<group>"; };
 		13D10C061E4EB2D700C65D97 /* UITouch关于手指的移动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITouch关于手指的移动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +201,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13BEBCC61E5FD48C00BA6998 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +282,30 @@
 		13BEBCBA1E5FD38F00BA6998 /* jiami */ = {
 			isa = PBXGroup;
 			children = (
+				13BEBCDA1E5FDA3000BA6998 /* 屏幕快照 2017-02-24 上午11.03.46.png */,
+				13BEBCCB1E5FD80C00BA6998 /* pkcs8_private_key.pem */,
+				13BEBCCC1E5FD80C00BA6998 /* private_key.p12 */,
+				13BEBCCD1E5FD80C00BA6998 /* private_key.pem */,
+				13BEBCCE1E5FD80C00BA6998 /* public_key.der */,
+				13BEBCCF1E5FD80C00BA6998 /* rsa_public_key.pem */,
+				13BEBCD01E5FD80C00BA6998 /* rsaCerReq.csr */,
+				13BEBCD11E5FD80C00BA6998 /* rsaCert.crt */,
+				13BEBCBC1E5FD3F200BA6998 /* JiaMiVc.h */,
+				13BEBCBD1E5FD3F200BA6998 /* JiaMiVc.m */,
+				13BEBCBE1E5FD3F200BA6998 /* JiaMiVc.xib */,
+				13BEBCC11E5FD47A00BA6998 /* RSAEncryptor.h */,
+				13BEBCC21E5FD47A00BA6998 /* RSAEncryptor.m */,
+				13BEBCD91E5FD81F00BA6998 /* Header.h */,
 			);
 			path = jiami;
+			sourceTree = "<group>";
+		};
+		13BEBCC41E5FD48C00BA6998 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13BEBCC51E5FD48C00BA6998 /* Security.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		13D10BFD1E4EB2D700C65D97 = {
@@ -273,6 +323,7 @@
 				13D10C221E4EB2D700C65D97 /* UITouch关于手指的移动Tests */,
 				13D10C2D1E4EB2D700C65D97 /* UITouch关于手指的移动UITests */,
 				13D10C071E4EB2D700C65D97 /* Products */,
+				13BEBCC41E5FD48C00BA6998 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -483,15 +534,24 @@
 			files = (
 				1382F1031E4EF3F300A3702C /* HitViewController.xib in Resources */,
 				13D10C451E4EB33D00C65D97 /* ThreeVc.xib in Resources */,
+				13BEBCD41E5FD80C00BA6998 /* private_key.pem in Resources */,
 				13D10C191E4EB2D700C65D97 /* LaunchScreen.storyboard in Resources */,
 				13D10C161E4EB2D700C65D97 /* Assets.xcassets in Resources */,
+				13BEBCC01E5FD3F200BA6998 /* JiaMiVc.xib in Resources */,
+				13BEBCD61E5FD80C00BA6998 /* rsa_public_key.pem in Resources */,
 				13DA667E1E51FA8900CADFF6 /* TestViewController.xib in Resources */,
+				13BEBCD71E5FD80C00BA6998 /* rsaCerReq.csr in Resources */,
+				13BEBCD51E5FD80C00BA6998 /* public_key.der in Resources */,
 				1382F11E1E4F68DA00A3702C /* Q2DViewController.xib in Resources */,
 				13B0C3DA1E5A073A00FE88A8 /* ModelVc.xib in Resources */,
+				13BEBCD31E5FD80C00BA6998 /* private_key.p12 in Resources */,
 				13D10C401E4EB32400C65D97 /* SecondVc.xib in Resources */,
+				13BEBCD81E5FD80C00BA6998 /* rsaCert.crt in Resources */,
 				1382F1181E4F1BDE00A3702C /* AnViewController.xib in Resources */,
 				13DA669A1E51FCF300CADFF6 /* Info.plist in Resources */,
 				13D10C141E4EB2D700C65D97 /* Main.storyboard in Resources */,
+				13BEBCD21E5FD80C00BA6998 /* pkcs8_private_key.pem in Resources */,
+				13BEBCDB1E5FDA3000BA6998 /* 屏幕快照 2017-02-24 上午11.03.46.png in Resources */,
 				13DA66AB1E5208F700CADFF6 /* TableStory.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +582,7 @@
 				13D10C0E1E4EB2D700C65D97 /* AppDelegate.m in Sources */,
 				1382F11D1E4F68DA00A3702C /* Q2DViewController.m in Sources */,
 				13DA669C1E51FCF300CADFF6 /* MASConstraint.m in Sources */,
+				13BEBCC31E5FD47A00BA6998 /* RSAEncryptor.m in Sources */,
 				13DA669F1E51FCF300CADFF6 /* MASViewAttribute.m in Sources */,
 				134608501E4F718800666329 /* MyNav.m in Sources */,
 				13DA669B1E51FCF300CADFF6 /* MASCompositeConstraint.m in Sources */,
@@ -530,6 +591,7 @@
 				13DA667D1E51FA8900CADFF6 /* TestViewController.m in Sources */,
 				1382F10F1E4EF71900A3702C /* BlueView.m in Sources */,
 				13FA897B1E530B34000FAFA3 /* NSString+MD5.m in Sources */,
+				13BEBCBF1E5FD3F200BA6998 /* JiaMiVc.m in Sources */,
 				1382F1171E4F1BDE00A3702C /* AnViewController.m in Sources */,
 				13B0C3D91E5A073A00FE88A8 /* ModelVc.m in Sources */,
 				13C50E071E5B281C00C50925 /* ThreeView.m in Sources */,

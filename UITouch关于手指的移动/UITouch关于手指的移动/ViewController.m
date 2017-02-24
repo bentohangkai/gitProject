@@ -16,6 +16,8 @@
 #import "TableViewController.h"
 #import "NSString+MD5.h"
 
+#import "JiaMiVc.h"
+
 @interface ViewController ()
 
 /** <#type#> */
@@ -64,7 +66,8 @@
 //    NSLog(@"--time---%.0f",time);
 //    NSLog(@"-sign---%@",md5String);
 //    NSLog(@"---uid---%@",[@"13016089762" md5]);
-   
+   //加密
+    [[UIApplication sharedApplication].keyWindow addSubview:[JiaMiVc new].view];
     
     
 
