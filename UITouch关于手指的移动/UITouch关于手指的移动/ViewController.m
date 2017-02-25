@@ -17,7 +17,9 @@
 #import "NSString+MD5.h"
 
 #import "JiaMiVc.h"
-
+#import "LHKViewPageView.h"
+#import "NSMutableArray+Extension.h"
+#import "NSArray+Extension.h"
 @interface ViewController ()
 
 /** <#type#> */
@@ -38,6 +40,8 @@
 
 /** <#type#> */
 @property(nonatomic,strong)UITableViewController *tableVc;
+/** <#type#> */
+@property(nonatomic,strong)LHKViewPageView *page;
 
 @end
 
@@ -45,12 +49,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
-    [self.view addSubview:self.redView];
-    self.automaticallyAdjustsScrollViewInsets = YES;
-    [self.view addSubview:self.hitBtn];
-    [self.view addSubview:self.anBtn];
-    [self.view addSubview:self.qu2D];
+//    self.view.backgroundColor = [UIColor whiteColor];
+//    [self.view addSubview:self.redView];
+//    self.automaticallyAdjustsScrollViewInsets = YES;
+//    [self.view addSubview:self.hitBtn];
+//    [self.view addSubview:self.anBtn];
+//    [self.view addSubview:self.qu2D];
     
 //    TableViewController *tabVc = [[UIStoryboard storyboardWithName:@"TableStory" bundle:nil] instantiateViewControllerWithIdentifier:@"tab"];
 //    self.tableVc = tabVc;
@@ -59,19 +63,23 @@
 //    [[UIApplication sharedApplication].keyWindow addSubview:tabVc.view];
 //    
 //    
-//    NSTimeInterval time = [[NSDate date] timeIntervalSince1970];
-//    NSString *string = [NSString stringWithFormat:@"%.0fyisuxing",time];
-//    NSString *md5String = [string md5];
-//   
-//    NSLog(@"--time---%.0f",time);
-//    NSLog(@"-sign---%@",md5String);
-//    NSLog(@"---uid---%@",[@"13016089762" md5]);
+    NSTimeInterval time = [[NSDate date] timeIntervalSince1970];
+    NSString *string = [NSString stringWithFormat:@"%.0fyisuxing",time];
+    NSString *md5String = [string md5];
+   
+    NSLog(@"--time---%.0f",time);
+    NSLog(@"-sign---%@",md5String);
+    NSLog(@"---uid---%@",[@"13016089762" md5]);
    //加密
-    [[UIApplication sharedApplication].keyWindow addSubview:[JiaMiVc new].view];
+//    [[UIApplication sharedApplication].keyWindow addSubview:[JiaMiVc new].view];
     
     
-
-
+    
+    
+    NSMutableArray *arr = [NSMutableArray arrayWithObject:@"4444"];
+    NSString *str = arr[10];
+    
+    
 }
 -(TestViewController *)testVc{
     if (_testVc == nil) {
@@ -79,6 +87,10 @@
         _testVc.view.frame = self.view.bounds;
     }
     return _testVc;
+}
+
+-(BOOL)prefersStatusBarHidden{
+    return YES;
 }
 
 -(UIButton *)hitBtn{
