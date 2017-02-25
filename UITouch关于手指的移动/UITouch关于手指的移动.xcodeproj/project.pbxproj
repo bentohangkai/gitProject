@@ -74,6 +74,9 @@
 		13E6AF0B1E6142360059B169 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13E6AF071E6142360059B169 /* MBProgressHUD.bundle */; };
 		13E6AF0C1E6142360059B169 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E6AF091E6142360059B169 /* MBProgressHUD.m */; };
 		13E6AF0F1E61454A0059B169 /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E6AF0E1E61454A0059B169 /* NSArray+Extension.m */; };
+		13E6AF151E617AF70059B169 /* NSMutableDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E6AF141E617AF70059B169 /* NSMutableDictionary+Extension.m */; };
+		13E6AF1B1E619CA90059B169 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E6AF1A1E619CA90059B169 /* Person.m */; };
+		13E6AF1E1E619CDF0059B169 /* Person+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E6AF1D1E619CDF0059B169 /* Person+Extension.m */; };
 		13FA897B1E530B34000FAFA3 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FA897A1E530B34000FAFA3 /* NSString+MD5.m */; };
 /* End PBXBuildFile section */
 
@@ -215,6 +218,12 @@
 		13E6AF091E6142360059B169 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		13E6AF0D1E61454A0059B169 /* NSArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
 		13E6AF0E1E61454A0059B169 /* NSArray+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
+		13E6AF131E617AF70059B169 /* NSMutableDictionary+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Extension.h"; sourceTree = "<group>"; };
+		13E6AF141E617AF70059B169 /* NSMutableDictionary+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Extension.m"; sourceTree = "<group>"; };
+		13E6AF191E619CA90059B169 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		13E6AF1A1E619CA90059B169 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		13E6AF1C1E619CDF0059B169 /* Person+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+Extension.h"; sourceTree = "<group>"; };
+		13E6AF1D1E619CDF0059B169 /* Person+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+Extension.m"; sourceTree = "<group>"; };
 		13FA89791E530B34000FAFA3 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		13FA897A1E530B34000FAFA3 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -469,6 +478,12 @@
 				13E6AEFF1E61418E0059B169 /* NSMutableArray+Extension.m */,
 				13E6AF0D1E61454A0059B169 /* NSArray+Extension.h */,
 				13E6AF0E1E61454A0059B169 /* NSArray+Extension.m */,
+				13E6AF131E617AF70059B169 /* NSMutableDictionary+Extension.h */,
+				13E6AF141E617AF70059B169 /* NSMutableDictionary+Extension.m */,
+				13E6AF191E619CA90059B169 /* Person.h */,
+				13E6AF1A1E619CA90059B169 /* Person.m */,
+				13E6AF1C1E619CDF0059B169 /* Person+Extension.h */,
+				13E6AF1D1E619CDF0059B169 /* Person+Extension.m */,
 			);
 			name = "NSDictionary&&NSArray";
 			sourceTree = "<group>";
@@ -655,6 +670,7 @@
 				134608561E503C3E00666329 /* CAShapView.m in Sources */,
 				13DA667D1E51FA8900CADFF6 /* TestViewController.m in Sources */,
 				13E6AF0C1E6142360059B169 /* MBProgressHUD.m in Sources */,
+				13E6AF151E617AF70059B169 /* NSMutableDictionary+Extension.m in Sources */,
 				1382F10F1E4EF71900A3702C /* BlueView.m in Sources */,
 				13FA897B1E530B34000FAFA3 /* NSString+MD5.m in Sources */,
 				13BEBCBF1E5FD3F200BA6998 /* JiaMiVc.m in Sources */,
@@ -675,12 +691,14 @@
 				13D10C3F1E4EB32400C65D97 /* SecondVc.m in Sources */,
 				13D10C0B1E4EB2D700C65D97 /* main.m in Sources */,
 				1382F1021E4EF3F300A3702C /* HitViewController.m in Sources */,
+				13E6AF1E1E619CDF0059B169 /* Person+Extension.m in Sources */,
 				13B0C3DD1E5A07C600FE88A8 /* ModelAn.m in Sources */,
 				13DA669E1E51FCF300CADFF6 /* MASLayoutConstraint.m in Sources */,
 				13E6AF031E6141B50059B169 /* ObjcRuntime.m in Sources */,
 				1346084D1E4F6C0400666329 /* MapView.m in Sources */,
 				13E6AEB61E60796B0059B169 /* LHKViewPageView.m in Sources */,
 				13D10C441E4EB33D00C65D97 /* ThreeVc.m in Sources */,
+				13E6AF1B1E619CA90059B169 /* Person.m in Sources */,
 				1382F10C1E4EF70A00A3702C /* RedView.m in Sources */,
 				13DA66A81E52080100CADFF6 /* TableViewController.m in Sources */,
 			);

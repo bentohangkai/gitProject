@@ -19,6 +19,8 @@
 #import "JiaMiVc.h"
 #import "LHKViewPageView.h"
 #import "NSMutableArray+Extension.h"
+#import "Person.h"
+#import "Person+Extension.h"
 #import "NSArray+Extension.h"
 @interface ViewController ()
 
@@ -43,6 +45,9 @@
 /** <#type#> */
 @property(nonatomic,strong)LHKViewPageView *page;
 
+/** <#type#> */
+@property(nonatomic,strong)NSArray<UIViewController *> *vc;
+
 @end
 
 @implementation ViewController
@@ -63,24 +68,41 @@
 //    [[UIApplication sharedApplication].keyWindow addSubview:tabVc.view];
 //    
 //    
-    NSTimeInterval time = [[NSDate date] timeIntervalSince1970];
-    NSString *string = [NSString stringWithFormat:@"%.0fyisuxing",time];
-    NSString *md5String = [string md5];
-   
-    NSLog(@"--time---%.0f",time);
-    NSLog(@"-sign---%@",md5String);
-    NSLog(@"---uid---%@",[@"13016089762" md5]);
+//    NSTimeInterval time = [[NSDate date] timeIntervalSince1970];
+//    NSString *string = [NSString stringWithFormat:@"%.0fyisuxing",time];
+//    NSString *md5String = [string md5];
+//   
+//    NSLog(@"--time---%.0f",time);
+//    NSLog(@"-sign---%@",md5String);
+//    NSLog(@"---uid---%@",[@"13016089762" md5]);
    //加密
 //    [[UIApplication sharedApplication].keyWindow addSubview:[JiaMiVc new].view];
     
+//    NSMutableArray *arr = [NSMutableArray arrayWithObject:@"4444"];
+//    NSString *str = arr[10];
     
+//    NSArray *arr1 = [NSArray arrayWithObjects:@"1234",@"5678", nil];
+//    NSString *str1 = arr1[10];
+//
+  
+
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+//    dict[nil]=@"key1";
+    dict[@"key2"]= nil;
     
+    NSLog(@"%@",dict);
     
-    NSMutableArray *arr = [NSMutableArray arrayWithObject:@"4444"];
-    NSString *str = arr[10];
+    Person *p = [Person new];
+    p.sex=@"1233";
+    NSLog(@"%@",p.sex);
     
     
 }
+
+
+
+
+
 -(TestViewController *)testVc{
     if (_testVc == nil) {
         _testVc = [[TestViewController alloc]init];
@@ -90,6 +112,8 @@
 }
 
 -(BOOL)prefersStatusBarHidden{
+
+    
     return YES;
 }
 
